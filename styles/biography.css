@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', sans-serif;
+    
+  }
+
+  .logo {
+    max-width: 320px;
+    margin-top: -35px;
+    margin-bottom: 5px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+  }
+
+  .navbar-list {
+
+    display: flex;
+    gap: 100px;
+  }
+
+
+  .navbar-list a {
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 5px;
+  }
+
+  .navbar-list a:hover{
+    background-color: #997852;
+    color: white;
+    transition: all .3s ease-in-out;
+    
+  }
+
+
+  
+  body {
+    background-color: #fcf9f2;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+    margin: 5px 15px 5px 15px;
+
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .portrait-section {
+    margin-bottom: 40px;
+    gap: 50px;
+    display: flex;
+    
+    justify-content: center;
+  }
+
+  .portrait-section div {
+    width: 35%;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .portrait-section p {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .portrait {
+    
+    max-width: 45%;
+    border-radius: 10px;
+    
+  }
+
+  .text-section {
+    justify-content: center;
+    text-align: justify;
+    width: 65%;
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+ 
+
+
+  .quote {
+    justify-content: center;
+    text-align: justify;
+    width: 65%;
+    font-size: 25px;
+    margin-bottom: 55px;
+  }
+
+  .author {
+    justify-content: end;
+    text-align: right;
+    font-style: italic;
+  }
+
+  span{
+    font-style: italic;
+  }
+
+  .animation-section img {
+    max-width: 45%;
+  }
+
+  .animation-section {
+    margin-bottom: 50px;
+  }
+
+  .image-section img {
+    max-width: 40%;
+  }
+
+  .image-section {
+    margin-bottom: 50px;
+  }
+
+  .info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 40px;
+
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+
+  .info-section img {
+    max-width: 20%;
+  }
+  .info-section p {
+    text-align: justify;
+    font-size: 22px;
+    width: 43%;
+  }
+  

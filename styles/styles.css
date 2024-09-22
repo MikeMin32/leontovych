@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', sans-serif;
+    
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+  }
+
+  .navbar-list {
+
+    display: flex;
+    gap: 100px;
+  }
+
+  .navbar-list a {
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 5px;
+  }
+
+  .navbar-list a:hover{
+    background-color: #997852;
+    color: white;
+    transition: all .3s ease-in-out;
+    
+  }
+
+  .logo {
+    max-width: 320px;
+    margin-top: -35px;
+    margin-bottom: 5px;
+  }
+  
+  body {
+    background-color: #fcf9f2;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+    margin: 5px 15px 5px 15px;
+
+  }
+
+  main {
+    
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  header span {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  
+  .portrait-section {
+    margin-bottom: 40px;
+    gap: 50px;
+    display: flex;
+    
+    justify-content: center;
+  }
+
+  .portrait-section-text p {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 12px;
+    font-style: italic;
+  }
+
+  .portrait-section-text {
+    text-align: justify;
+    width: 35%;
+    margin-top: 50px;
+  }
+
+  .portrait-section-text h2 {
+    text-align: center;
+    font-size: 32px;
+    
+  }
+
+  .portrait-section-text h4 {
+    text-align: center;
+    margin-top: -3px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .portrait {
+    max-width: 18%;
+  }
+  
+  .info-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .info-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .info-box p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  footer {
+    margin-top: 200px;
+    font-size: 0.9em;
+    color: #999;
+  }
+  
